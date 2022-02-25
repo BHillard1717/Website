@@ -9,3 +9,7 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+function homeScreenFade(){
+    document.getElementById("YouTubeLink").innerHTML = '<a href="https://youtu.be/owBJWRYwWVo" target="_blank">Vocode</a>';
+}
