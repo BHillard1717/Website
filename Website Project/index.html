@@ -11,13 +11,19 @@
     footer {text-align:   center;}
 </style>
 <body class="dark-theme">
+    
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="sources/Simple-Text-Shuffle-Effect-with-jQuery-Shuffle-Text/jquery.shuffleText.js"></script>
+
+    <div class="transition">
+    </div>
+
     <div class="topnav" id="myTopnav">
     <a href="index.html" class="current">Home</a>
     <a href="#aboutMe" >About Me</a>
-    <a href="#code">Code</a>
+    <a id="codeHeading" href="#code" onclick="pageTransition()">Code</a>
     <a href="#experience">Experience</a>
     <a href="links.html">Links</a>
     <a href="resume.html">Resume</a>
@@ -33,6 +39,13 @@
     <ul>
         <li id="YouTubeLink"><a href="https://www.youtube.com/watch?v=ChgK3V0Eezo" target="_blank">Among Us</a></li>
     </ul>
+
+    <p id="shufflePara" style="width: 40px">This is an example of a multiline paragraph. 
+        I want to test how the shuffle text will wokr for multiple lines
+        of text that is broken up into multiple lines
+        When the amount of lines changes I wonder what it will look like.
+    </p>
+
     <script src="app.js"></script>
     <noscript>Enable JavaScript for the full experience</noscript>
     
